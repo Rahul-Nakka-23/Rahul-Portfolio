@@ -49,7 +49,7 @@ const Projects: React.FC = () => {
     },
     {
       id: 3,
-      title: 'University Statsboard',
+      title: 'Dashboard',
       description: 'A dashboard built with HTML and CSS provides a structured and visually appealing interface to display key information and statistics in one place. It uses layout techniques, colors, and styling to organize data panels, charts, and navigation elements for easy user interaction.',
       image: universityStatsboardScreenshot,
       tags: ['HTML', 'CSS'],
