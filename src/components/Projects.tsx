@@ -31,7 +31,7 @@ const Projects: React.FC = () => {
       description: 'A machine learning project to predict house prices using Linear Regression and Random Forest Regression models.',
       image: 'https://todaysconveyancer.co.uk/wp-content/uploads/2018/07/price-index.jpg',
       tags: ['Python', 'Pandas ', 'Numpy', 'Scikit-learn', 'Seaborn', 'Matplotlib', 'Flask ', 'Joblib'],
-      demoLink: '#',
+      demoLink: 'https://drive.google.com/file/d/1sgCbHQmfKLY3JL6QyRUlZas81EnBb6gW/view?usp=sharing',
       codeLink: 'https://github.com/Rahul-Nakka-23/House-price-prediction',
       category: 'aiml',
       details: 'The model is trained on a real-world dataset sourced from Kaggle and deployed via a Flask web application for user interaction.The key features are :- Predicts house prices based on multiple features Implements both Linear and Random Forest regression models, Performs extensive data preprocessing and encoding, Evaluates model performance with standard regression metrics, Deploys the trained model using Flask, Visualizes data and insights with Seaborn and Matplotlib'
@@ -42,7 +42,7 @@ const Projects: React.FC = () => {
       description: 'Movie Recommendation and Rating Prediction Web App is a great project that combines web development, machine learning, and data science',
       image: 'https://th.bing.com/th/id/OIP.5sQ452R5nempCuEL0yxRzAHaEJ?rs=1&pid=ImgDetMain',
       tags: ['React', 'TypeScript', 'Firebase', 'Tailwind CSS'],
-      demoLink: 'https://drive.google.com/file/d/1sgCbHQmfKLY3JL6QyRUlZas81EnBb6gW/view?usp=sharing',
+      demoLink: '#',
       codeLink: 'https://github.com/Rahul-Nakka-23/Movie-Recommendation-Rating-Prediction-System',
       category: 'aiml',
       details: 'This project is a web-based movie recommendation system that provides personalized movie suggestions and predicts user ratings based on historical preferences and behavior. It combines machine learning algorithms with an intuitive user interface to enhance user engagement and movie discovery.The web app enables users to register, log in, explore movies, rate them, and receive tailored recommendations. It uses collaborative filtering to analyze user-movie interactions and suggest films liked by similar users, and content-based filtering to recommend movies similar to the ones a user has rated highly. A rating prediction feature forecasts how a user would likely rate a movie they haven’t seen yet.'
