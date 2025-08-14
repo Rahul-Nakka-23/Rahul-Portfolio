@@ -97,14 +97,14 @@ const Hero: React.FC = () => {
             </a>
             */}
 
-            <a
+{/*             <a
               href="#projects"
               className="px-8 py-3 bg-white dark:bg-gray-800 text-blue-600 dark:text-blue-400 font-medium rounded-full shadow-lg hover:shadow-xl border border-gray-200 dark:border-gray-700 hover:border-blue-300 dark:hover:border-blue-500 transition-all duration-300 w-full sm:w-auto"
               onClick={(e) => {
                 e.preventDefault();
                 document.getElementById('projects')?.scrollIntoView({ behavior: 'smooth' });
               }}
-            >
+            > */}
               View Projects
             </a>
           </div>
