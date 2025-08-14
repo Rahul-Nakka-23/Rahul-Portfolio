@@ -25,23 +25,30 @@ const Hero: React.FC = () => {
       id="hero"
       className="relative min-h-screen flex items-center justify-center pt-16 overflow-hidden"
     >
+      {/* Background */}
       <div className="absolute inset-0 -z-10">
         <div
-          className={`absolute inset-0 ${theme === 'dark'
-            ? 'bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900'
-            : 'bg-gradient-to-br from-blue-50 via-white to-purple-50'
-            }`}
+          className={`absolute inset-0 ${
+            theme === 'dark'
+              ? 'bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900'
+              : 'bg-gradient-to-br from-blue-50 via-white to-purple-50'
+          }`}
         ></div>
         <div className="absolute inset-0 opacity-30">
           <div className="absolute inset-0 bg-[radial-gradient(#3B82F6_1px,transparent_1px)] [background-size:20px_20px]"></div>
         </div>
       </div>
 
+      {/* Main Content */}
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="relative z-10 max-w-4xl mx-auto text-center">
-          <p className="text-lg md:text-xl font-medium mb-4 text-blue-600 dark:text-blue-400 opacity-0 animate-fadeInUp" style={{ animationDelay: '0.2s', animationFillMode: 'forwards' }}>
+          <p
+            className="text-lg md:text-xl font-medium mb-4 text-blue-600 dark:text-blue-400 opacity-0 animate-fadeInUp"
+            style={{ animationDelay: '0.2s', animationFillMode: 'forwards' }}
+          >
             Hello, I'm
           </p>
+
           <h1
             ref={textRef}
             className="text-4xl md:text-6xl lg:text-7xl font-bold mb-6 text-gray-900 dark:text-white opacity-0"
@@ -49,22 +56,46 @@ const Hero: React.FC = () => {
           >
             <span className="inline-block">Rahul Nakka</span>
           </h1>
-          <h2 className="text-2xl md:text-3xl font-semibold mb-8 text-gray-700 dark:text-gray-300 opacity-0 animate-fadeInUp" style={{ animationDelay: '0.6s', animationFillMode: 'forwards' }}>
+
+          <h2
+            className="text-2xl md:text-3xl font-semibold mb-8 text-gray-700 dark:text-gray-300 opacity-0 animate-fadeInUp"
+            style={{ animationDelay: '0.6s', animationFillMode: 'forwards' }}
+          >
             Aspiring Software Engineer | Full Stack Developer
           </h2>
 
-          <p className="text-lg md:text-xl text-gray-600 dark:text-gray-400 mb-10 max-w-2xl mx-auto opacity-0 animate-fadeInUp" style={{ animationDelay: '0.8s', animationFillMode: 'forwards' }}>
-            I create exceptional digital experiences that combine beautiful design with flawless functionality.
+          <p
+            className="text-lg md:text-xl text-gray-600 dark:text-gray-400 mb-10 max-w-2xl mx-auto opacity-0 animate-fadeInUp"
+            style={{ animationDelay: '0.8s', animationFillMode: 'forwards' }}
+          >
+            I create exceptional digital experiences that combine beautiful design with flawless
+            functionality.
           </p>
 
-          {/* Main Call to Action Buttons */}
-          <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-10 opacity-0 animate-fadeInUp" style={{ animationDelay: '1s', animationFillMode: 'forwards' }}>
+          {/* Call to Action Buttons */}
+          <div
+            className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-10 opacity-0 animate-fadeInUp"
+            style={{ animationDelay: '1s', animationFillMode: 'forwards' }}
+          >
+            {/* OPTION 1: Open Resume in New Tab */}
             <a
-              href="https://drive.google.com/file/d/1SCl21Zx-GHiYvlNqp5aMygDPhDrLDwtL/view?usp=drive_link" download
-              }}
+              href="https://drive.google.com/file/d/1SCl21Zx-GHiYvlNqp5aMygDPhDrLDwtL/view?usp=drive_link"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="px-8 py-3 bg-blue-600 text-white font-medium rounded-full shadow-lg hover:shadow-xl transition-all duration-300 w-full sm:w-auto"
             >
               Resume
             </a>
+
+            {/* OPTION 2: Direct Download (uncomment if needed) */}
+            {/*
+            <a
+              href="https://drive.google.com/uc?export=download&id=1SCl21Zx-GHiYvlNqp5aMygDPhDrLDwtL"
+              className="px-8 py-3 bg-blue-600 text-white font-medium rounded-full shadow-lg hover:shadow-xl transition-all duration-300 w-full sm:w-auto"
+            >
+              Resume
+            </a>
+            */}
 
             <a
               href="#projects"
@@ -78,8 +109,11 @@ const Hero: React.FC = () => {
             </a>
           </div>
 
-          {/* Scroll to About Button - Positioned below CTAs and centered */}
-          <div className="mb-10 opacity-0 animate-fadeInUp" style={{ animationDelay: '1.2s', animationFillMode: 'forwards' }}>
+          {/* Scroll Down Button */}
+          <div
+            className="mb-10 opacity-0 animate-fadeInUp"
+            style={{ animationDelay: '1.2s', animationFillMode: 'forwards' }}
+          >
             <button
               onClick={scrollToAbout}
               className="p-2 rounded-full border border-gray-300 dark:border-gray-700 text-gray-600 dark:text-gray-400 hover:text-blue-600 dark:hover:text-blue-400 hover:border-blue-300 dark:hover:border-blue-500 transition-all duration-300 animate-bounce inline-flex items-center justify-center"
@@ -89,23 +123,37 @@ const Hero: React.FC = () => {
             </button>
           </div>
 
-          {/* Social Media Links */}
-          <div className="flex justify-center space-x-6 mb-16 opacity-0 animate-fadeInUp" style={{ animationDelay: '1.4s', animationFillMode: 'forwards' }}>
-            <a href="https://github.com/Rahul-Nakka-23" target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-gray-900 dark:text-gray-400 dark:hover:text-white transition-colors">
+          {/* Social Links */}
+          <div
+            className="flex justify-center space-x-6 mb-16 opacity-0 animate-fadeInUp"
+            style={{ animationDelay: '1.4s', animationFillMode: 'forwards' }}
+          >
+            <a
+              href="https://github.com/Rahul-Nakka-23"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-gray-600 hover:text-gray-900 dark:text-gray-400 dark:hover:text-white transition-colors"
+            >
               <Github size={24} />
               <span className="sr-only">GitHub</span>
             </a>
-            <a href="https://www.linkedin.com/in/nakka-rahul/" target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-gray-900 dark:text-gray-400 dark:hover:text-white transition-colors">
+            <a
+              href="https://www.linkedin.com/in/nakka-rahul/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-gray-600 hover:text-gray-900 dark:text-gray-400 dark:hover:text-white transition-colors"
+            >
               <Linkedin size={24} />
               <span className="sr-only">LinkedIn</span>
             </a>
-            <a href="mailto:rahulnakka55@gmail.com" className="text-gray-600 hover:text-gray-900 dark:text-gray-400 dark:hover:text-white transition-colors">
+            <a
+              href="mailto:rahulnakka55@gmail.com"
+              className="text-gray-600 hover:text-gray-900 dark:text-gray-400 dark:hover:text-white transition-colors"
+            >
               <Mail size={24} />
               <span className="sr-only">Email</span>
             </a>
           </div>
-
-          {/* Original absolutely positioned div for scroll button is now removed */}
         </div>
       </div>
     </section>
