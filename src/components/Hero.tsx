@@ -80,6 +80,7 @@ const Hero: React.FC = () => {
             {/* OPTION 1: Open Resume in New Tab */}
             <a
               href="https://drive.google.com/file/d/1SCl21Zx-GHiYvlNqp5aMygDPhDrLDwtL/view?usp=drive_link"
+              download
               target="_blank"
               rel="noopener noreferrer"
               className="px-8 py-3 bg-blue-600 text-white font-medium rounded-full shadow-lg hover:shadow-xl transition-all duration-300 w-full sm:w-auto"
