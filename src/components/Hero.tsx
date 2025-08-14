@@ -60,11 +60,7 @@ const Hero: React.FC = () => {
           {/* Main Call to Action Buttons */}
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-10 opacity-0 animate-fadeInUp" style={{ animationDelay: '1s', animationFillMode: 'forwards' }}>
             <a
-              href="https://drive.google.com/file/d/1SCl21Zx-GHiYvlNqp5aMygDPhDrLDwtL/view?usp=drive_link"
-              className="px-8 py-3 bg-blue-600 hover:bg-blue-700 text-white font-medium rounded-full shadow-lg hover:shadow-xl transition-all duration-300 w-full sm:w-auto"
-              onClick={(e) => {
-                e.preventDefault();
-                document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' });
+              href="https://drive.google.com/file/d/1SCl21Zx-GHiYvlNqp5aMygDPhDrLDwtL/view?usp=drive_link" download
               }}
             >
               Resume
