@@ -112,7 +112,7 @@ const Experience: React.FC = () => {
 
         <div className="max-w-3xl mx-auto mt-16 text-center">
           <a
-            href="https://drive.google.com/file/d/1z5Ue4yg-9doEZKsqg6WPnQF163NJ5aFf/view?usp=sharing"
+            href="https://drive.google.com/file/d/1SCl21Zx-GHiYvlNqp5aMygDPhDrLDwtL/view?usp=drive_link"
             download
             className="inline-flex items-center gap-2 px-6 py-3 bg-blue-600 hover:bg-blue-700 text-white font-medium rounded-full shadow-md hover:shadow-lg transition-all duration-300"
           >
