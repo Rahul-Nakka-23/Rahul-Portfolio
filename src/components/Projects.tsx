@@ -263,16 +263,23 @@ const Projects: React.FC = () => {
       </div>
 
       {/* Project Modal */}
-      {selectedProject && (
-        <div className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/50 backdrop-blur-sm">
-          <div className="relative w-full max-w-4xl max-h-[90vh] overflow-y-auto bg-white dark:bg-gray-800 rounded-xl shadow-2xl">
-            <button
-              onClick={closeModal}
-              className="absolute top-4 right-4 p-2 rounded-full bg-gray-100 dark:bg-gray-700 text-gray-600 dark:text-gray-400 hover:bg-gray-200 dark:hover:bg-gray-600 transition-colors"
-            >
-              <X size={20} />
-              <span className="sr-only">Close</span>
-            </button>
+     {selectedProject && (
+  <div
+    className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/50 backdrop-blur-sm"
+    onClick={closeModal} // Close modal when clicking on backdrop
+  >
+    <div
+      className="relative w-full max-w-4xl max-h-[90vh] overflow-y-auto bg-white dark:bg-gray-800 rounded-xl shadow-2xl"
+      onClick={(e) => e.stopPropagation()} // Prevent modal from closing when clicking inside
+    >
+      <button
+        onClick={closeModal}
+        className="absolute top-4 right-4 p-2 rounded-full bg-gray-100 dark:bg-gray-700 text-gray-600 dark:text-gray-400 hover:bg-gray-200 dark:hover:bg-gray-600 transition-colors"
+      >
+        <X size={20} />
+        <span className="sr-only">Close</span>
+      </button>
+
 
             <div className="relative h-64 sm:h-80 overflow-hidden">
               <img
