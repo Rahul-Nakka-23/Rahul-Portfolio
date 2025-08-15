@@ -31,7 +31,7 @@ const Projects: React.FC = () => {
       description: 'A machine learning project to predict house prices using Linear Regression and Random Forest Regression models.',
       image: 'https://todaysconveyancer.co.uk/wp-content/uploads/2018/07/price-index.jpg',
       tags: ['Python', 'Pandas ', 'Numpy', 'Scikit-learn', 'Seaborn', 'Matplotlib', 'Flask ', 'Joblib'],
-      demoLink: 'https://drive.google.com/file/d/1sgCbHQmfKLY3JL6QyRUlZas81EnBb6gW/view?usp=sharing',
+      demoLink: 'https://house-price-prediction-l6k4.onrender.com',
       codeLink: 'https://github.com/Rahul-Nakka-23/House-price-prediction',
       category: 'aiml',
       details: 'The model is trained on a real-world dataset sourced from Kaggle and deployed via a Flask web application for user interaction.The key features are :- Predicts house prices based on multiple features Implements both Linear and Random Forest regression models, Performs extensive data preprocessing and encoding, Evaluates model performance with standard regression metrics, Deploys the trained model using Flask, Visualizes data and insights with Seaborn and Matplotlib'
