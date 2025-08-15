@@ -113,7 +113,18 @@ const Projects: React.FC = () => {
       codeLink: 'https://github.com/Rahul-Nakka-23/Calculator',
       category: 'core',
       details: 'This project is a simple calculator written in x86 assembly language that performs basic arithmetic operations—addition, subtraction, multiplication, and division—on two single-digit numbers. It utilizes DOS interrupts to manage user input and output via the terminal. The program prompts the user to enter the first number, select an arithmetic operator (`+`, `-`, `*`, `/`), and then enter the second number. Using interrupt `INT 21h`, it reads the user’s input, processes the selected operation, and displays the result. This project showcases key assembly language concepts such as register manipulation (using `AL`, `BL`, `CL`, `DL`), conditional branching with instructions like `CMP`, `JE`, and `JMP`, ASCII to numeric conversion, and subroutine handling through `CALL` and `RET`. It serves as a foundational exercise in understanding low-level programming and control flow.',
-    }
+    },
+    {
+      id: 9,
+      title: 'Radar Like Object Detection System',
+      description: 'This project demonstrates the implementation of an ultrasonic radar system using an Arduino microcontroller, a servo motor, and an ultrasonic sensor. The radar's data is visualized in real-time using Processing.',
+      image: "https://cdn3.vectorstock.com/i/1000x1000/24/67/radar-blip-detection-of-objects-on-the-vector-18662467.jpg",
+      tags: ['Arduino Uno (or compatible)','Ultrasonic Sensor (HC-SR04)','Servo Motor (e.g., SG90)'],
+      demoLink: '#',
+      codeLink: 'https://github.com/Rahul-Nakka-23/Radar-Detection-System',
+      category: 'frontend',
+      details: 'Arduino Code:Controls a servo motor to rotate the ultrasonic sensor.Measures distance using an ultrasonic sensor.Sends angle and distance data to the serial port.Processing Code:Visualizes radar sweeps and detected objects in a graphical interface.Displays real-time angle and distance readings.Indicates whether objects are "In Range" or "Out of Range."',
+    },
   ];
 
   const filters = [
