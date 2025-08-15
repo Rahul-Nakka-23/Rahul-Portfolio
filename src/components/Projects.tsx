@@ -53,8 +53,8 @@ const Projects: React.FC = () => {
       description: 'A dashboard built with HTML and CSS provides a structured and visually appealing interface to display key information and statistics in one place. It uses layout techniques, colors, and styling to organize data panels, charts, and navigation elements for easy user interaction.',
       image: universityStatsboardScreenshot,
       tags: ['HTML', 'CSS'],
-      demoLink: '#',
-      codeLink: '#',
+      demoLink: 'https://rahul-nakka-23.github.io/Dashboard/',
+      codeLink: 'https://github.com/Rahul-Nakka-23/Dashboard',
       category: 'frontend',
       details: 'A responsive dashboard using HTML and CSS is a web interface designed to display important data and controls in an organized and visually appealing manner, while adapting smoothly to different screen sizes such as desktops, tablets, and smartphones. It typically includes components like a navigation sidebar, top header, information cards, and data tables, all arranged using flexible layout techniques like CSS Flexbox or Grid. Media queries are used to adjust styles and layout based on the device’s screen width, ensuring optimal readability and usability. The dashboard may also feature interactive elements such as hover effects and smooth transitions to enhance the user experience.'
 
@@ -65,7 +65,7 @@ const Projects: React.FC = () => {
       description: 'A demo portfolio webiste desinged using HTML and CSS',
       image: portfolioimg,
       tags: ['HTML', 'CSS'],
-      demoLink: '#',
+      demoLink: 'https://rahul-nakka-23.github.io/Portfolio-demo/',
       codeLink: 'https://github.com/Rahul-Nakka-23/Portfolio-demo',
       category: 'frontend',
       details: 'A responsive portfolio website using HTML and CSS is a web interface designed to display personal information to showcase you skills and projects with a unique style '
@@ -87,8 +87,8 @@ const Projects: React.FC = () => {
       description: 'This project showcases the prices of the some items',
       image: pricingimg,
       tags: ['HTML', 'CSS'],
-      demoLink: '#',
-      codeLink: '#',
+      demoLink: 'https://rahul-nakka-23.github.io/Pricing-panel-project/',
+      codeLink: 'https://github.com/Rahul-Nakka-23/Pricing-panel-project',
       category: 'frontend',
       details: 'This project is a responsive pricing panel designed using HTML and CSS, showcasing three different service tiers: Personal, Small Team, and Enterprise. Each panel presents a clean and visually structured layout that highlights the pricing, features, and a call-to-action button for each plan. It is fully responsive, ensuring the layout adapts seamlessly across desktop, tablet, and mobile screens.Each card features a modern design with illustrations, a feature list, bold pricing display, and action buttons such as "Sign Up" or "Free Trial." CSS Flexbox/Grid is used to arrange the cards side-by-side, while media queries ensure responsiveness. The visual design uses light backgrounds with a prominent blue accent to maintain clarity and professionalism.',
     },
