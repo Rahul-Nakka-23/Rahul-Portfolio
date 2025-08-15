@@ -41,7 +41,7 @@ const Projects: React.FC = () => {
       title: 'Movie Recommendation And Rating Prediction System ',
       description: 'Movie Recommendation and Rating Prediction Web App is a great project that combines web development, machine learning, and data science',
       image: 'https://th.bing.com/th/id/OIP.5sQ452R5nempCuEL0yxRzAHaEJ?rs=1&pid=ImgDetMain',
-      tags: ['React', 'TypeScript', 'Firebase', 'Tailwind CSS'],
+      tags: ['Python', 'Pandas ','Numpy', 'Scikit-learn', 'Seaborn'],
       demoLink: '#',
       codeLink: 'https://github.com/Rahul-Nakka-23/Movie-Recommendation-Rating-Prediction-System',
       category: 'aiml',
@@ -114,6 +114,17 @@ const Projects: React.FC = () => {
       category: 'core',
       details: 'This project is a simple calculator written in x86 assembly language that performs basic arithmetic operations—addition, subtraction, multiplication, and division—on two single-digit numbers. It utilizes DOS interrupts to manage user input and output via the terminal. The program prompts the user to enter the first number, select an arithmetic operator (`+`, `-`, `*`, `/`), and then enter the second number. Using interrupt `INT 21h`, it reads the user’s input, processes the selected operation, and displays the result. This project showcases key assembly language concepts such as register manipulation (using `AL`, `BL`, `CL`, `DL`), conditional branching with instructions like `CMP`, `JE`, and `JMP`, ASCII to numeric conversion, and subroutine handling through `CALL` and `RET`. It serves as a foundational exercise in understanding low-level programming and control flow.',
     }
+     {
+      id: 9,
+      title: 'Radar Like Object Detection System',
+      description: 'This project demonstrates the implementation of an ultrasonic radar system using an Arduino microcontroller, a servo motor, and an ultrasonic sensor. The radar's data is visualized in real-time using Processing.',
+      image: 'https://cdn3.vectorstock.com/i/1000x1000/24/67/radar-blip-detection-of-objects-on-the-vector-18662467.jpg',
+      tags: ['Arduino Uno (or compatible)','Ultrasonic Sensor (HC-SR04)','Servo Motor (e.g., SG90)'],
+      demoLink: '#',
+      codeLink: 'https://github.com/Rahul-Nakka-23/Radar-Detection-System',
+      category: 'Core',
+      details: 'This project is a web-based movie recommendation system that provides personalized movie suggestions and predicts user ratings based on historical preferences and behavior. It combines machine learning algorithms with an intuitive user interface to enhance user engagement and movie discovery.The web app enables users to register, log in, explore movies, rate them, and receive tailored recommendations. It uses collaborative filtering to analyze user-movie interactions and suggest films liked by similar users, and content-based filtering to recommend movies similar to the ones a user has rated highly. A rating prediction feature forecasts how a user would likely rate a movie they haven’t seen yet.'
+    },
   ];
 
   const filters = [
