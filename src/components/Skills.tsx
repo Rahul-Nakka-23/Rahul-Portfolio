@@ -37,9 +37,10 @@ const Skills: React.FC = () => {
 
   const categories = [
     { id: 'all', name: 'All Skills' },
+     { id: 'core', name: 'Core Skills' },
     { id: 'web', name: 'Web Dev' },
     { id: 'tools', name: 'Tools & DevOps' },
-    { id: 'core', name: 'Core Skills' },
+   
   ];
 
   const filteredSkills = activeCategory === 'all'
