@@ -75,10 +75,7 @@ const Experience: React.FC = () => {
 
               {/* Content positioning */}
               <div className={`flex md:w-1/2 ${index % 2 === 0 ? 'md:mr-auto' : 'md:ml-auto md:pl-16'}`}>
-                <div
-                  className={`ml-8 md:ml-0 pl-8 md:pl-0 border-l border-blue-200 dark:border-blue-800 md:border-l-0 ${index % 2 === 0 ? 'md:pr-16 md:text-right' : ''
-                    }`}
-                >
+                
                   <div className="bg-white dark:bg-gray-700 p-6 rounded-xl shadow-md hover:shadow-lg transition-shadow border border-gray-100 dark:border-gray-600">
                     <h3 className="text-xl font-bold mb-1 text-gray-900 dark:text-white">{item.title}</h3>
                     <div className="flex items-center gap-1 mb-2 text-blue-600 dark:text-blue-400">
