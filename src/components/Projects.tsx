@@ -113,7 +113,19 @@ const Projects: React.FC = () => {
       codeLink: 'https://github.com/Rahul-Nakka-23/Calculator',
       category: 'core',
       details: 'This project is a simple calculator written in x86 assembly language that performs basic arithmetic operations—addition, subtraction, multiplication, and division—on two single-digit numbers. It utilizes DOS interrupts to manage user input and output via the terminal. The program prompts the user to enter the first number, select an arithmetic operator (`+`, `-`, `*`, `/`), and then enter the second number. Using interrupt `INT 21h`, it reads the user’s input, processes the selected operation, and displays the result. This project showcases key assembly language concepts such as register manipulation (using `AL`, `BL`, `CL`, `DL`), conditional branching with instructions like `CMP`, `JE`, and `JMP`, ASCII to numeric conversion, and subroutine handling through `CALL` and `RET`. It serves as a foundational exercise in understanding low-level programming and control flow.',
+    },
+     {
+      id: 9,
+      title: 'Calculator Using Dosbox',
+      description: 'This is a simple assembly program that performs basic arithmetic operations (addition, subtraction, multiplication, and division) on two single-digit numbers. The program takes user input for two numbers and the operation to perform, then displays the result.',
+      image: 'https://www.maketecheasier.com/assets/uploads/2019/12/dosbox-opening-screen-user-interface.jpg',
+      tags: ['Assembly Language (x86 architecture)', 'MASM ', 'DOS Interrupts (INT 21h) '],
+      demoLink: '#',
+      codeLink: 'https://github.com/Rahul-Nakka-23/Calculator',
+      category: 'core',
+      details: 'This project is a simple calculator written in x86 assembly language that performs basic arithmetic operations—addition, subtraction, multiplication, and division—on two single-digit numbers. It utilizes DOS interrupts to manage user input and output via the terminal. The program prompts the user to enter the first number, select an arithmetic operator (`+`, `-`, `*`, `/`), and then enter the second number. Using interrupt `INT 21h`, it reads the user’s input, processes the selected operation, and displays the result. This project showcases key assembly language concepts such as register manipulation (using `AL`, `BL`, `CL`, `DL`), conditional branching with instructions like `CMP`, `JE`, and `JMP`, ASCII to numeric conversion, and subroutine handling through `CALL` and `RET`. It serves as a foundational exercise in understanding low-level programming and control flow.',
     }
+    
   ];
 
   const filters = [
