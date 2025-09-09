@@ -13,32 +13,31 @@ const Skills: React.FC = () => {
   const [activeCategory, setActiveCategory] = useState<string>('all');
 
   const skillsData: Skill[] = [
-    // Frontend
-    { name: 'HTML/CSS', level: 95, category: 'frontend' },
-    { name: 'JavaScript', level: 90, category: 'frontend' },
-    { name: 'React', level: 92, category: 'frontend' },
-
-    // Backend
-    { name: 'Node.js', level: 50, category: 'backend' },
-    { name: 'Python', level: 80, category: 'backend' },
-    { name: 'Django', level: 40, category: 'backend' },
-    { name: 'MongoDB', level: 70, category: 'backend' },
+    // webdev
+    { name: 'HTML/CSS', level: 95, category: 'web' },
+    { name: 'JavaScript', level: 90, category: 'web' },
+    { name: 'React', level: 92, category: 'web' },
+    { name: 'Node.js', level: 50, category: 'web' },
+    { name: 'Python', level: 80, category: 'web' },
 
     // Tools
     { name: 'Git', level: 90, category: 'tools' },
     { name: 'Github', level: 90, category: 'tools' },
     { name: 'AWS', level: 70, category: 'tools' },
     //core
+    { name: 'Digital Circuits', level: 90, category: 'core' },
+    { name: 'Networking Basics', level: 90, category: 'core' },
     { name: 'MATLAB', level: 70, category: 'core' },
     { name: 'Verilog', level: 70, category: 'core' },
     { name: 'Aurdino', level: 60, category: 'core' },
     { name: 'Raspberry Pi', level: 50, category: 'core' },
+
+      
   ];
 
   const categories = [
     { id: 'all', name: 'All Skills' },
-    { id: 'frontend', name: 'Frontend' },
-    { id: 'backend', name: 'Backend' },
+    { id: 'web', name: 'Web Dev' },
     { id: 'tools', name: 'Tools & DevOps' },
     { id: 'core', name: 'Core Skills' },
   ];
