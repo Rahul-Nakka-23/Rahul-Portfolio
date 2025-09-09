@@ -36,16 +36,11 @@ const Skills: React.FC = () => {
   ];
 
   const categories = [
-    { id: 'all', name: 'All Skills' },
      { id: 'core', name: 'Core Skills' },
     { id: 'web', name: 'Web Dev' },
     { id: 'tools', name: 'Tools & DevOps' },
    
   ];
-
-  const filteredSkills = activeCategory === 'all'
-    ? skillsData
-    : skillsData.filter(skill => skill.category === activeCategory);
 
   return (
     <section
