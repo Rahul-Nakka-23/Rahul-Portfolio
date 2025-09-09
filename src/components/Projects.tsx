@@ -5,8 +5,8 @@ import universityStatsboardScreenshot from './Screenshot 2025-05-21 114447.png';
 import portfolioimg from './Screenshot 2025-05-21 120356.png';
 import pricingimg from './Screenshot 2025-05-21 122019.png';
 import processimg from './Screenshot 2025-05-21 123111.png';
-import radarimg from './radar.webp';
-import multiple from './multi lang.jpg';
+import radarimg from './radar.png';
+import multiple from './multi lang.png';
 interface Project {
   id: number;
   title: string;
