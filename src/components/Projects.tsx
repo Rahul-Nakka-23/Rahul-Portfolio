@@ -102,7 +102,7 @@ const Projects: React.FC = () => {
       codeLink: 'https://github.com/Rahul-Nakka-23/AC-Service-Web',
       category: 'web',
       details: 'responsive AC servicing website built with HTML, CSS, and JavaScript. Includes service details, interactive UI, and slot booking integration using Email.js and WhatsApp for seamless customer communication.',
-    }
+    },
     {
       id: 8,
       title: 'Movie Recommendation And Rating Prediction System ',
@@ -148,7 +148,7 @@ const Projects: React.FC = () => {
       codeLink: 'https://github.com/Rahul-Nakka-23/Pricing-panel-project',
       category: 'web',
       details: 'This project is a responsive pricing panel designed using HTML and CSS, showcasing three different service tiers: Personal, Small Team, and Enterprise. Each panel presents a clean and visually structured layout that highlights the pricing, features, and a call-to-action button for each plan. It is fully responsive, ensuring the layout adapts seamlessly across desktop, tablet, and mobile screens.Each card features a modern design with illustrations, a feature list, bold pricing display, and action buttons such as "Sign Up" or "Free Trial." CSS Flexbox/Grid is used to arrange the cards side-by-side, while media queries ensure responsiveness. The visual design uses light backgrounds with a prominent blue accent to maintain clarity and professionalism.',
-    },
+    }
     
    
     
