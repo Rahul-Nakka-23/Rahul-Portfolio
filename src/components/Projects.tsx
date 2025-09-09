@@ -7,6 +7,7 @@ import pricingimg from './Screenshot 2025-05-21 122019.png';
 import processimg from './Screenshot 2025-05-21 123111.png';
 import radarimg from './radar.png';
 import multipleimg from './multi lang.png';
+import acimg from './Screenshot 2025-09-09 221935.png';
 interface Project {
   id: number;
   title: string;
@@ -97,7 +98,7 @@ const Projects: React.FC = () => {
       id: 7,
       title: 'AC-Servicing-Web',
       description: 'This is a Fully functional website provides Air conditioning services',
-      image: 'https://drive.google.com/file/d/1gESrODVDRg4bzoX5NC2cumymo0hsOfXA/view?usp=drive_link',
+      image: acimg,
       tags: ['HTML', 'CSS', 'JavaScript'],
       demoLink: 'https://srinu-ac-service.vercel.app/',
       codeLink: 'https://github.com/Rahul-Nakka-23/AC-Service-Web',
