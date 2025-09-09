@@ -80,31 +80,40 @@ const Experience: React.FC = () => {
                     }`}
                 >
 
-                  <div className="bg-white dark:bg-gray-700 p-6 rounded-xl shadow-md hover:shadow-lg transition-shadow border border-gray-100 dark:border-gray-600">
-                    <h3 className="text-xl font-bold mb-1 text-gray-900 dark:text-white">{item.title}</h3>
-                    <div className="flex items-center gap-1 mb-2 text-blue-600 dark:text-blue-400">
-                      <Briefcase size={16} />
-                      <span className="text-sm font-medium">{item.company}</span>
-                    </div>
-                    <div className="flex items-center gap-1 mb-4 text-gray-500 dark:text-gray-400">
-                      <Calendar size={16} />
-                      <span className="text-sm">{item.period}</span>
-                    </div>
-                    <ul className="mb-4 text-gray-600 dark:text-gray-300 space-y-2">
-                      {item.description.map((desc, i) => (
-                        <li key={i} className="relative pl-5 before:absolute before:left-0 before:top-2 before:w-2 before:h-2 before:bg-blue-600 dark:before:bg-blue-400 before:rounded-full">
-                          {desc}
-                        </li>
-                      ))}
-                    </ul>
-                    <div className="flex flex-wrap gap-2">
-                      {item.skills.map((skill, i) => (
-                        <span key={i} className="px-2 py-1 text-xs bg-blue-100 dark:bg-blue-900/30 text-blue-600 dark:text-blue-400 rounded-full">
-                          {skill}
-                        </span>
-                      ))}
-                    </div>
-                  </div>
+                 <div className="bg-white dark:bg-gray-700 p-6 rounded-xl shadow-md hover:shadow-lg transition-shadow border border-gray-100 dark:border-gray-600 text-left">
+  <h3 className="text-xl font-bold mb-1 text-gray-900 dark:text-white">
+    {item.title}
+  </h3>
+  <div className="flex items-center gap-1 mb-2 text-blue-600 dark:text-blue-400">
+    <Briefcase size={16} />
+    <span className="text-sm font-medium">{item.company}</span>
+  </div>
+  <div className="flex items-center gap-1 mb-4 text-gray-500 dark:text-gray-400">
+    <Calendar size={16} />
+    <span className="text-sm">{item.period}</span>
+  </div>
+  <ul className="mb-4 text-gray-600 dark:text-gray-300 space-y-2 text-left">
+    {item.description.map((desc, i) => (
+      <li
+        key={i}
+        className="relative pl-5 before:absolute before:left-0 before:top-2 before:w-2 before:h-2 before:bg-blue-600 dark:before:bg-blue-400 before:rounded-full"
+      >
+        {desc}
+      </li>
+    ))}
+  </ul>
+  <div className="flex flex-wrap gap-2">
+    {item.skills.map((skill, i) => (
+      <span
+        key={i}
+        className="px-2 py-1 text-xs bg-blue-100 dark:bg-blue-900/30 text-blue-600 dark:text-blue-400 rounded-full"
+      >
+        {skill}
+      </span>
+    ))}
+  </div>
+</div>
+
                 </div>
               </div>
             </div>
