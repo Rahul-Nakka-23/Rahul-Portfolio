@@ -16,8 +16,19 @@ const Experience: React.FC = () => {
   const isInView = useInView(sectionRef, { threshold: 0.1 });
 
   const experienceData: ExperienceItem[] = [
-    {
+     {
       id: 1,
+      title: 'Cyber Security & Ethical Hacking Intern',
+      company: 'ApexPlanet Software Pvt.Ltd',
+      period: 'sep 2025 - oct 2025',
+      description: [
+        'Gaining hands-on experience in penetration testing, vulnerability assessment, and incident response in a controlled lab environment.',
+        'Working with tools like Wireshark, Nmap, Burp Suite, Metasploit, OpenVAS, Hydra, and John the Ripper for scanning, exploitation, and mitigation.',
+      ],
+      skills: ['Network Security and Scanning','Web Application Security','Exploitation and System Security','Capstone Project and Incident Response']
+    },
+    {
+      id: 2,
       title: 'Mini Project',
       company: 'MLR Institue of Technology',
       period: 'Apr 2025 - Jun 2025',
@@ -28,18 +39,7 @@ const Experience: React.FC = () => {
       ],
       skills: ['Python', 'Pandas', 'Numpy', 'Scikit-Learn', 'Matplotlib', 'Flask', 'Joblib']
     },
-    {
-      id: 2,
-      title: 'Micro Porject',
-      company: 'MLR Institue of Technology',
-      period: 'jan 2024 - Mar 2024',
-      description: [
-        'Designed and implemented an Arduino-based traffic management system utilizing ultrasonic sensors for real-time traffic density detection.',
-        'Programmed microcontrollers to process sensor data and control traffic light sequencing, enhancing efficiency and reducing waiting times.',
-        'Integrated multiple sensor inputs and programmed decision-making algorithms to create a responsive and adaptive traffic control solution.',
-      ],
-      skills: ['Arduino IDE', 'Arduino microcontroller', 'Ultrasonice sensors', 'LEDs']
-    },
+    
 
   ];
 
@@ -56,7 +56,7 @@ const Experience: React.FC = () => {
           </h2>
           <div className="w-20 h-1 bg-blue-600 dark:bg-blue-400 mx-auto mb-8 rounded transition-all duration-1000 delay-200" style={{ transform: isInView ? 'scaleX(1)' : 'scaleX(0)' }}></div>
           <p className={`text-lg text-gray-600 dark:text-gray-400 transition-all duration-1000 delay-300 ${isInView ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'}`}>
-            Though I haven't yet embarked on my first professional role, I've cultivated a robust skill set in C, C++, Python programming, Java, HTML, CSS, JavaScript, Mongodb, Reactjs, Flutter and concepts like DSA, OOPS and Machine Learning  through intensive coursework, independent study, and hands-on projects.
+            Though I haven't yet embarked on my first professional role, I've cultivated a robust skill set in C, C++, Python programming, Java, HTML, CSS, JavaScript, Mongodb, Reactjs, Flutter and concepts like DSA and Machine Learning  through intensive coursework, independent study, and hands-on projects.
           </p>
         </div>
 
