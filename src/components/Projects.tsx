@@ -28,7 +28,7 @@ const Projects: React.FC = () => {
   const projects: Project[] = [
         {
       id: 1,
-      title: '•Multi-Language Voice Control Home Automation (IOT & Embedded System)',
+      title: 'Multi-Language Voice Control Home Automation (IOT & Embedded System)',
       description:'Controlling home appliances using multi languages',
       image:multipleimg,
       tags: ['Arduino IDE', 'Ultrasonic sensors', 'Monitor', 'Arduino-compatible microcontroller'],
