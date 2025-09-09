@@ -6,7 +6,7 @@ import portfolioimg from './Screenshot 2025-05-21 120356.png';
 import pricingimg from './Screenshot 2025-05-21 122019.png';
 import processimg from './Screenshot 2025-05-21 123111.png';
 import radarimg from './radar.png';
-import multiple from './multi lang.png';
+import multipleimg from './multi lang.png';
 interface Project {
   id: number;
   title: string;
@@ -30,7 +30,7 @@ const Projects: React.FC = () => {
       id: 1,
       title: '•Multi-Language Voice Control Home Automation (IOT & Embedded System)',
       description:'Controlling home appliances using multi languages',
-      image:'multiple',
+      image:multipleimg,
       tags: ['Arduino IDE', 'Ultrasonic sensors', 'Monitor', 'Arduino-compatible microcontroller'],
       demoLink: '#',
       codeLink: '#',
@@ -52,7 +52,7 @@ const Projects: React.FC = () => {
       id: 3,
       title: 'Sentinel Radar',
       description:'Sentinel Radar is a real-time object detection system using Arduino and ultrasonic sensors for applications like blind-spot detection and surveillance',
-      image:'radar',
+      image:radarimg,
       tags: ['Arduino IDE', 'Ultrasonic sensors', 'Monitor', 'Arduino-compatible microcontroller'],
       demoLink: '#',
       codeLink: 'https://github.com/Rahul-Nakka-23/Radar-Detection-System',
