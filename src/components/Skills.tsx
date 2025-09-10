@@ -10,7 +10,7 @@ interface Skill {
 const Skills: React.FC = () => {
   const sectionRef = useRef<HTMLDivElement>(null);
   const isInView = useInView(sectionRef, { threshold: 0.1, once: true });
-  const [activeCategory, setActiveCategory] = useState<string>('all');
+  const [activeCategory, setActiveCategory] = useState<string>('core');
 
   const skillsData: Skill[] = [
     // webdev
@@ -26,10 +26,15 @@ const Skills: React.FC = () => {
     { name: 'AWS', level: 70, category: 'tools' },
     //core
     { name: 'Digital Circuits', level: 90, category: 'core' },
+    { name: 'Signals and Systems', level: 90, category: 'core' },
+    { name: 'Microprocessors and Microcontrollers', level: 90, category: 'core' },
+    { name: 'Antenna and Wave Propagation', level: 90, category: 'core' },
     { name: 'Networking Basics', level: 90, category: 'core' },
     { name: 'MATLAB', level: 70, category: 'core' },
+    { name: 'Cadence', level: 50, category: 'core' },
+    { name: 'AutoCAD', level: 40, category: 'core' },
     { name: 'Verilog', level: 70, category: 'core' },
-    { name: 'Aurdino', level: 60, category: 'core' },
+    { name: 'Aurdino', level: 80, category: 'core' },
     { name: 'Raspberry Pi', level: 50, category: 'core' },
 
       
