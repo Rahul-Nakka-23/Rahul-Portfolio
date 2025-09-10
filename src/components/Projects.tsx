@@ -8,6 +8,7 @@ import processimg from './Screenshot 2025-05-21 123111.png';
 import radarimg from './radar.png';
 import multipleimg from './multi lang.png';
 import acimg from './Screenshot 2025-09-09 221935.png';
+import portimg from './Screenshot 2025-09-10 111417.png';
 interface Project {
   id: number;
   title: string;
@@ -109,7 +110,7 @@ const Projects: React.FC = () => {
       id: 8,
       title: 'Portfolio',
       description: 'A  portfolio webiste desinged using react and Typescript',
-      image: portfolioimg,
+      image: portimg,
       tags: ['React', 'Typescript'],
       demoLink: 'https://rahul-portfolio-alpha-rouge.vercel.app/',
       codeLink: 'https://github.com/Rahul-Nakka-23/Rahul-Portfolio',
