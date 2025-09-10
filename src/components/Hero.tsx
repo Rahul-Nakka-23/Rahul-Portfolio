@@ -79,7 +79,7 @@ const Hero: React.FC = () => {
           >
             {/* OPTION 1: Open Resume in New Tab */}
             <a
-             href="https://drive.google.com/file/d/1Y7_3-65ZqwzeQ0tSqIMP9dUB6mPJ5JZ5/view?usp=sharing"
+             href="https://drive.google.com/file/d/16A9miLNFGJTwhkbMB-JMNVaY7PyRk6JX/view?usp=sharing"
             download
               target="_blank"
               rel="noopener noreferrer"
