@@ -107,6 +107,17 @@ const Projects: React.FC = () => {
     },
     {
       id: 8,
+      title: 'Portfolio',
+      description: 'A  portfolio webiste desinged using react and Typescript',
+      image: portfolioimg,
+      tags: ['React', 'Typescript'],
+      demoLink: 'https://rahul-portfolio-alpha-rouge.vercel.app/',
+      codeLink: 'https://github.com/Rahul-Nakka-23/Rahul-Portfolio',
+      category: 'web',
+      details: 'A responsive portfolio website using react which showcases my skills, experience and projects'
+    },
+    {
+      id: 9,
       title: 'Movie Recommendation And Rating Prediction System ',
       description: 'Movie Recommendation and Rating Prediction Web App is a great project that combines web development, machine learning, and data science',
       image: 'https://th.bing.com/th/id/OIP.5sQ452R5nempCuEL0yxRzAHaEJ?rs=1&pid=ImgDetMain',
@@ -117,7 +128,7 @@ const Projects: React.FC = () => {
       details: 'This project is a web-based movie recommendation system that provides personalized movie suggestions and predicts user ratings based on historical preferences and behavior. It combines machine learning algorithms with an intuitive user interface to enhance user engagement and movie discovery.The web app enables users to register, log in, explore movies, rate them, and receive tailored recommendations. It uses collaborative filtering to analyze user-movie interactions and suggest films liked by similar users, and content-based filtering to recommend movies similar to the ones a user has rated highly. A rating prediction feature forecasts how a user would likely rate a movie they haven’t seen yet.'
     },
     {
-      id: 9,
+      id: 10,
       title: 'Dashboard',
       description: 'A dashboard built with HTML and CSS provides a structured and visually appealing interface to display key information and statistics in one place. It uses layout techniques, colors, and styling to organize data panels, charts, and navigation elements for easy user interaction.',
       image: universityStatsboardScreenshot,
@@ -129,7 +140,7 @@ const Projects: React.FC = () => {
 
     },
     {
-      id: 10,
+      id: 11,
       title: 'Portfolio',
       description: 'A demo portfolio webiste desinged using HTML and CSS',
       image: portfolioimg,
@@ -141,7 +152,7 @@ const Projects: React.FC = () => {
     },
 
     {
-      id: 11,
+      id: 12,
       title: 'Pricing Panel Project',
       description: 'This project showcases the prices of the some items',
       image: pricingimg,
