@@ -21,6 +21,11 @@ const Skills: React.FC = () => {
     { name: 'Python', level: 80, category: 'web' },
 
     // Tools
+    { name: 'C Programming', level: 70, category: 'tools' },
+    { name: 'C++', level: 70, category: 'tools' },
+    { name: 'JAVA', level: 70, category: 'tools' },
+    { name: 'Python', level: 70, category: 'tools' },
+    { name: 'MySQL', level: 70, category: 'tools' },
     { name: 'Git', level: 90, category: 'tools' },
     { name: 'Github', level: 90, category: 'tools' },
     { name: 'AWS', level: 70, category: 'tools' },
@@ -44,7 +49,7 @@ const Skills: React.FC = () => {
 
      { id: 'core', name: 'Core Skills' },
     { id: 'web', name: 'Web Dev' },
-    { id: 'tools', name: 'Tools & DevOps' },
+    { id: 'tools', name: 'Languages, Tools & DevOps' },
    { id: 'all', name: 'All Skills' },
   ];
 const filteredSkills = activeCategory === 'all' ? skillsData : skillsData.filter(skill => skill.category === activeCategory);
