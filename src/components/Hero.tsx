@@ -61,7 +61,7 @@ const Hero: React.FC = () => {
             className="text-2xl md:text-3xl font-semibold mb-8 text-gray-700 dark:text-gray-300 opacity-0 animate-fadeInUp"
             style={{ animationDelay: '0.6s', animationFillMode: 'forwards' }}
           >
-            Aspiring Embedded Engineer | Full Stack Developer
+            Aspiring Electronics and Communication Engineer
           </h2>
 
           <p
