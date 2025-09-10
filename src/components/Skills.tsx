@@ -56,7 +56,7 @@ const filteredSkills = activeCategory === 'all' ? skillsData : skillsData.filter
           </h2>
           <div className="w-20 h-1 bg-blue-600 dark:bg-blue-400 mx-auto mb-8 rounded transition-all duration-1000 delay-200" style={{ transform: isInView ? 'scaleX(1)' : 'scaleX(0)' }}></div>
           <p className={`text-lg text-gray-600 dark:text-gray-400 transition-all duration-1000 delay-300 ${isInView ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'}`}>
-            I have experience with a wide range of technologies across the full stack development spectrum. My skill set is constantly evolving as I continue to learn and adapt to new technologies.
+            I have experience with a wide range of technologies across the Core and Fullstack development spectrum. My skill set is constantly evolving as I continue to learn and adapt to new technologies.
           </p>
         </div>
 
