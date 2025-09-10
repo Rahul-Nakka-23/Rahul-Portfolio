@@ -68,7 +68,7 @@ const Hero: React.FC = () => {
             className="text-lg md:text-xl text-gray-600 dark:text-gray-400 mb-10 max-w-2xl mx-auto opacity-0 animate-fadeInUp"
             style={{ animationDelay: '0.8s', animationFillMode: 'forwards' }}
           >
-            I create exceptional digital experiences that combine beautiful design with flawless
+            With a habit of  creating exceptional digital experiences that combine beautiful design with flawless
             functionality.
           </p>
 
