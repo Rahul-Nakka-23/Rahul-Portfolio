@@ -16,7 +16,7 @@ const About: React.FC = () => {
     {
       icon: <Code className="w-6 h-6" />,
       title: 'Developer',
-      description: 'I enjoy building things that live on the internet, from websites to applications, with a focus on responsive design and accessibility.',
+      description: 'I enjoy building things that live on the internet, from websites to applications, from ideas to practical core solutions with a focus on responsive design and accessibility.',
     },
     {
       icon: <Briefcase className="w-6 h-6" />,
@@ -75,7 +75,7 @@ const About: React.FC = () => {
           <div className={`transition-all duration-1000 delay-900 ${isInView ? 'opacity-100 translate-x-0' : 'opacity-0 translate-x-10'}`}>
             <h3 className="text-2xl font-bold mb-4 text-gray-900 dark:text-white">My Journey</h3>
             <p className="text-gray-600 dark:text-gray-400 mb-4">
-              I'm a dedicated full-stack developer with a passion for creating exceptional digital experiences. My journey in web development started in my frist year of B-Tech, and since then, I've worked on numerous projects.
+              I'm a dedicated Electronics and Communication Engineer with a passion for creating practical solutions for the real world problems with exceptional digital experiences. My journey in web development started in my frist year of B-Tech, and since then, I've worked on numerous projects.
             </p>
             <p className="text-gray-600 dark:text-gray-400 mb-6">
               I specialize in building responsive, accessible, and performant web applications using modern technologies. My approach combines technical expertise with a keen eye for design, ensuring that every project I work on is both functionally robust and visually appealing.
